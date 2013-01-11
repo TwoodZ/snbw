@@ -13,7 +13,7 @@ if ((_uid in moderators) OR (_uid in administrators) OR (_uid in serverAdministr
         hint "Welcome Moderator";		
 	};
     if ((_uid in administrators)) then {
-		execVM "client\systems\adminPanel\loadAdministratorMenu.sqf";
+		[] execVM "client\systems\adminPanel\loadAdministratorMenu.sqf";
         hint "Welcome Admin";		
 	};
     if ((_uid in serverAdministrators)) then {
@@ -21,7 +21,7 @@ if ((_uid in moderators) OR (_uid in administrators) OR (_uid in serverAdministr
         hint "Welcome Owner";		
 	};	
 } else {
- //   sleep 1;
-   // _handle = player execVM "client\systems\adminPanel\checkAdmin2.sqf"; 
-    //waitUntil {scriptDone _handle};
+    sleep 1;
+    _handle = player execVM "client\systems\adminPanel\checkAdmin2.sqf"; 
+    waitUntil {scriptDone _handle};
 };

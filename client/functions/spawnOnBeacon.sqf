@@ -29,14 +29,14 @@ switch(_switch) do
 		{
 			if(ctrlText _buttonZero == _x select 0) then {
 				_respawnPosition = _x select 1;
-		        _respawnPosition = [_respawnPosition,1,20,1,0,0,0] call BIS_fnc_findSafePos;
+		        _respawnPosition = [_respawnPosition,1,75,1,0,0,0] call BIS_fnc_findSafePos;
 		    };
 		}forEach pvar_beaconListBlu;
 		
 		{
 			if(ctrlText _buttonZero == _x select 0) then {
 				_respawnPosition = _x select 1;
-		        _respawnPosition = [_respawnPosition,1,20,1,0,0,0] call BIS_fnc_findSafePos;
+		        _respawnPosition = [_respawnPosition,1,75,1,0,0,0] call BIS_fnc_findSafePos;
 		    };
 		}forEach pvar_beaconListRed;
 		    
@@ -48,14 +48,14 @@ switch(_switch) do
 		{
 			if(ctrlText _buttonOne == _x select 0) then {
 				_respawnPosition = _x select 1;
-		        _respawnPosition = [_respawnPosition,1,20,1,0,0,0] call BIS_fnc_findSafePos;
+		        _respawnPosition = [_respawnPosition,1,75,1,0,0,0] call BIS_fnc_findSafePos;
 		    };
 		}forEach pvar_beaconListBlu;
 		
 		{
 			if(ctrlText _buttonOne == _x select 0) then {
 				_respawnPosition = _x select 1;
-		        _respawnPosition = [_respawnPosition,1,20,1,0,0,0] call BIS_fnc_findSafePos;
+		        _respawnPosition = [_respawnPosition,1,75,1,0,0,0] call BIS_fnc_findSafePos;
 		    };
 		}forEach pvar_beaconListRed;
 		    
@@ -67,14 +67,14 @@ switch(_switch) do
 		{
 			if(ctrlText _buttonTwo == _x select 0) then {
 				_respawnPosition = _x select 1;
-		        _respawnPosition = [_respawnPosition,1,20,1,0,0,0] call BIS_fnc_findSafePos;
+		        _respawnPosition = [_respawnPosition,1,75,1,0,0,0] call BIS_fnc_findSafePos;
 		    };
 		}forEach pvar_beaconListBlu;
 		
 		{
 			if(ctrlText _buttonTwo == _x select 0) then {
 				_respawnPosition = _x select 1;
-		        _respawnPosition = [_respawnPosition,1,20,1,0,0,0] call BIS_fnc_findSafePos;
+		        _respawnPosition = [_respawnPosition,1,75,1,0,0,0] call BIS_fnc_findSafePos;
 		    };
 		}forEach pvar_beaconListRed;
 		    
@@ -86,14 +86,14 @@ switch(_switch) do
 		{
 			if(ctrlText _buttonThree == _x select 0) then {
 				_respawnPosition = _x select 1;
-		        _respawnPosition = [_respawnPosition,1,20,1,0,0,0] call BIS_fnc_findSafePos;
+		        _respawnPosition = [_respawnPosition,1,75,1,0,0,0] call BIS_fnc_findSafePos;
 		    };
 		}forEach pvar_beaconListBlu;
 		
 		{
 			if(ctrlText _buttonThree == _x select 0) then {
 				_respawnPosition = _x select 1;
-		        _respawnPosition = [_respawnPosition,1,20,1,0,0,0] call BIS_fnc_findSafePos;
+		        _respawnPosition = [_respawnPosition,1,75,1,0,0,0] call BIS_fnc_findSafePos;
 		    };
 		}forEach pvar_beaconListRed;
 		    
@@ -105,14 +105,14 @@ switch(_switch) do
 		player setPos _respawnPosition;		{
 			if(ctrlText _buttonFour == _x select 0) then {
 				_respawnPosition = _x select 1;
-		        _respawnPosition = [_respawnPosition,1,20,1,0,0,0] call BIS_fnc_findSafePos;
+		        _respawnPosition = [_respawnPosition,1,75,1,0,0,0] call BIS_fnc_findSafePos;
 		    };
 		}forEach pvar_beaconListBlu;
 		
 		{
 			if(ctrlText _buttonFour == _x select 0) then {
 				_respawnPosition = _x select 1;
-		        _respawnPosition = [_respawnPosition,1,20,1,0,0,0] call BIS_fnc_findSafePos;
+		        _respawnPosition = [_respawnPosition,1,75,1,0,0,0] call BIS_fnc_findSafePos;
 		    };
 		}forEach pvar_beaconListRed;
 		    
@@ -126,6 +126,6 @@ sleep 5;
 
 _mins = floor(60 * (daytime - floor(daytime)));
 [
-	"Beerbot has spawn you at your","Spawn Beacon",
+	"404 Wasteland","Spawn Beacon",
 	format ["%1:%3%2", floor(daytime), _mins, if(_mins < 10) then {"0"} else {""}]
 ] spawn BIS_fnc_infoText;

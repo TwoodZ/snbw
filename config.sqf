@@ -4,33 +4,12 @@
 //	@file Created: 20/11/2012 05:13
 //	@file Description: Main config.
 
-//Admin menu access levels
-moderators = ["2380353", // michael
-				"8649670", // ghostb
-				"6557312", // linden
-				"634881", // makaan
-				"2382145", // shaun
-				"88340678", // Matty
-				"1878593", // Holster
-				"9897606" // Grimm
-               	]; 
-            
-administrators = ["1084417", //unknown
-					"7102278", //CFS
-                    "433856", //jan
-					"1752838"];  //Rofl
-
-serverAdministrators = ["7417222"]; //TwoodZ
-      
 // --------------------------------------------------------------------------------------------------- \\
 // ----------  !DO NOT CHANGE ANYTHING BELOW THIS POINT UNLESS YOU KNOW WHAT YOU ARE DOING!	---------- \\
 // ----------																				---------- \\
 // ----------			404Games are not responsible for anything that may happen 			---------- \\
 // ----------			 as a result of unauthorised modifications to this file.			---------- \\
 // --------------------------------------------------------------------------------------------------- \\
-
-//Client Vars
-playerSetupComplete = false;
                                                                                                 
 //Gunstore Weapon List - Gun Store Base List
 // Text name, classname, buy cost, sell amount

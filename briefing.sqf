@@ -1,64 +1,213 @@
-player createDiarySubject ["snb", "Info"];
-player createDiarySubject ["AllowedAddons", "Allowed Addons"];
+player createDiarySubject ["404games", "404Games Information"];
+player createDiarySubject ["changelog", "404Games Change Log"];
 player createDiarySubject ["wasteland", "What is Wasteland?"];
 
-player createDiaryRecord["AllowedAddons",
+player createDiaryRecord["changelog",
 [
-"Allowed Addons",
+"0.1",
 "
 <br/>
-The Currently allowed Addons are<br/>
-<br/>
-<br/>
--JSRS<br/>
--ST_Movement<br/>
--CBA<br/>
--Blastcore Visuals<br/>
-<br/>
-<br/>
-More to come.....
-<br/><br/>	
-"
-]
-];
-player createDiaryRecord["snb",
-[
-"Teamspeak",
-"
-<br/><br/>
-Our teamspeak address is<br/><br/>ts3.steaknbeer.com<br/><br/><br/>You can always come and join us at<br/><br/>www.steaknbeer.com<br/><br/><br/>
-	
+		[Fixed] - Server performance issues.<br/>
+		[Fixed] - Vehicle cleanup.<br/>
+		[Fixed] - Team locking time which is actually 3 mins now.<br/>
 "
 ]
 ];
 
-player createDiaryRecord["snb",
+player createDiaryRecord["changelog",
+[
+"2.1",
+"
+<br/>
+		[Added] - Towing Limit Now Set to 1 Vehicle and Cars can Tow<br/>
+		[Added] - Some Static Helis<br/>
+		[Added] - Spawn Beacons<br/>
+		[Added] - Client Markers<br/>
+		[Added] - Outpost Mission<br/>
+		[Added] - Concurrent Missions<br/>
+		[Added] - Welcome Message<br/>
+		[Added] - Admin Levels<br/>
+		[Added] - More Ammo Types<br/>
+		[Added] - More Player Roles, Now 120 Total<br/>
+		[Changed] - Object List to have more Objects<br/>
+		[Changed] - Balanced Mission Ammo Caches<br/>
+		[Changed] - Faction Starting Pistols now more appropriate<br/>
+		[Changed] - Missions Rewriten to Address Multiple Bugs<br/>
+		[Redesigned] - Gun Store<br/>
+		[Redesigned] - General Store<br/>
+		[Fixed] - Animation not working correctly<br/>
+		[Fixed] - Money Drop Bug and Exploit<br/>
+		[Fixed] - JIP Loading Bug<br/>
+		[Fixed] - AI Running to Other Mission<br/>
+		[Fixed] - Numerous minor bugs and tweeks<br/>  
+"
+]
+];
+
+player createDiaryRecord["changelog",
+[
+"2.2",
+"
+<br/>
+		[Added] - Body Clean Up after a short period.<br/>
+		[Added] - Mobile Radar Station Mission.<br/>
+		[Changed] - Vehicle Clean made less aggressive.<br/>
+"
+]
+];
+
+player createDiaryRecord["changelog",
+[
+"2.2b",
+"
+<br/>
+		[Changed] - Server Spawning Less Aggressive.<br/>
+"
+]
+];
+
+player createDiaryRecord["changelog",
+[
+"2.3",
+"
+<br/>
+		[Fixed] - Drinking and Eating While in the car animation.<br/>
+        [Fixed] - Other minor bugs.<br/>
+"
+]
+];
+
+player createDiaryRecord["changelog",
+[
+"2.4",
+"
+<br/>
+		[Added] - Three new objects.<br/>
+		[Added] - More anti hack for vehicles.<br/>
+		[Added] - Check to make sure missions don't pop up in the same place.<br/>
+		[Added] - Static Boats.<br/>
+		[Changed] - Increased length of welcome message.<br/>
+		[Changed] - Mission failover to 60 mins.<br/>
+		[Changed] - Increased delay for body clean up to 15 mins.<br/>
+		[Fixed] - Vehicle respawn script.<br/>
+		[Removed] - Some debuging.<br/>
+"
+]
+];
+
+player createDiaryRecord["changelog",
+[
+"2.5",
+"
+<br/>
+		[Added] - Default weapon crates have been nerfed and more gun variations added.<br/>
+		[Added] - Static helis now spawn in random locations.<br/>
+		[Added] - When a static heli fails to spawn, a wreck is spawned instead.<br/>
+		[Added] - Cammo nets have been added to the general store.<br/>
+		[Fixed] - Players are now able to buy LMG's at the gun store.<br/>
+		[Fixed] - Weapons now have varying sell prices relative to gun cost.<br/>
+		[Fixed] - When buying a full jerry can, the empty one is automatically removed from player inventory.<br/>
+		[Changed] - Various balance and price tweaks made to stores.<br/>
+		[Changed] - Chernarus is now in summer time. Longer days to be had by all.<br/>
+		[Changed] - Player starting money reduced to $100.<br/>
+"
+]
+];
+
+player createDiaryRecord["changelog",
+[
+"2.6",
+"
+<br/>
+		[Added] - Groups.<br/>
+        [Added] - Body and Object clean up.<br/>
+		[Added] - Static helis now spawn in random locations.<br/>
+		[Added] - Default weapon crates have been nerfed and more gun variations added.<br/>
+		[Added] - When a static heli fails to spawn, a wreck is spawned instead.<br/>
+		[Added] - Player Tags thanks to [OcUK]Melbo.<br/>
+		[Added] - Yellow tint, falling ash and dust for wasteland.<br/>
+		[Added] - Cammo nets have been added to the general store.<br/>
+        [Fixed] - Fix vehicle cleanup and respawn.<br/>
+		[Fixed] - Players are now able to buy LMG's at the gun store.<br/>
+		[Fixed] - Weapons now have varying sell prices relative to gun cost.<br/>
+		[Fixed] - When buying a full jerry can, the empty one is automatically removed from player inventory.<br/>
+		[Changed] - Town marker procedural generation optimised for reduced start-up lag.<br/>
+		[Changed] - Admin menu can now remove player teamlock and teamkiller, also added a three tier permission system for greater flexibility.<br/>
+		[Changed] - Player starting money reduced to $100.<br/>
+		[Changed] - Various balance and price tweaks made to stores.<br/>
+		[Changed] - Chernarus is now in summer time. Longer days to be had by all.<br/>
+"
+]
+];
+
+player createDiaryRecord["changelog",
+[
+"2.6 Dev3",
+"
+<br/>
+		[Fixed] - Flickering Icons.<br/>
+		[Fixed] - Spawning with guns.<br/>
+		[Fixed] - Spawning in a group.<br/>
+		[Changed] - Removed Green Icons From Groups.<br/>
+"
+]
+];
+player createDiaryRecord["changelog",
+[
+"2.7",
+"
+<br/>
+		[Added] - Better player join flow.<br/>
+		[Added] - Independent groups now have icons back.<br/>
+		[Fixed] - Disapearing icons on players who have been alive a long time.<br/>
+		[Fixed] - Player Setup and Initialization.<br/>
+		[Fixed] - Joining with a group.<br/>
+		[Fixed] - Feedback messages missing.<br/>
+        [Fixed] - Money dupe.<br/>
+		[Changed] - Time Sync to just sync time and not accelerate it.<br/>
+"
+]
+];
+
+player createDiaryRecord["404games",
 [
 "Credits",
 "
-<br/><br/>
-All credits for the wasteland mission go out 404 Games, TAW Tonic for the Original Idea.<br/>All I did (TwoodZ) was edit the script for personal flavour.<br/>
-I'd like to thank Unknown and Roflburger for the help with the game server.<br/><br/>
-A Shout out to the admins that are helping keep the server under control (OR TRYING)<br/><br/> 
-AND TO ALL THE PEEPS THAT COME TO PLAY HERE<br/><br/>
-	
+<br/>
+	Contributors:<br/><br/>
+	Credit to Tonic for original game-mode creation.<br/><br/>
+	404 Developers:<br/><br/>
+	Developer - Deadbeat<br/>
+	Developer - Costlyy<br/>
+    Developer - Pulse<br/>
+	Server Host - Domuk<br/>
 "
 ]
 ];
 
-player createDiaryRecord["Teamspeak",
+player createDiaryRecord["404games",
+[
+"Bug and Cheat Reporting",
+"
+<br/>
+	Found a bug? Please report it at: http://www.404games.co.uk/bugs<br/><br/>
+	Suspect a player is hacking or exploiting? Please report it at: http://www.404games.co.uk/bans<br/><br/>
+	Please remeber this game-mode is in continuous development and there will be bugs. 
+"
+]
+];
+
+player createDiaryRecord["404games",
 [
 "Teamspeak",
 "
 <br/>
-Please join us on teamspeak, <br/><br/>
-ts3.steaknbeer.com<br/><br/> 
+	There is a public Teamspeak 3 server available for players of this server.<br/><br/>
+	Teamspeak IP: ts.404games.co.uk:9988<br/><br/>
+	Please join and say hello! (Please speak English)
 "
 ]
 ];
-
-
-
 
 player createDiaryRecord["wasteland",
 [
@@ -85,8 +234,8 @@ The Wasteland is a team versus team versus team sandbox survival experience. The
 
 FAQ<br/>
 Q. What am I supposed to do here?<br/>
-A. See the above description
-<br/><br/>
+A. See the above description<br/>
+<br/>
 Q. Where can I get a gun?<br/>
 A. Weapons are found in one of three places, first in ammo caches that randomly spawn around the map inside and outside buildings, and second, in the gear section of the vehicles, which also randomly spawn around the map. The last place to find a gun would be at the gunshops located throughout the map. You can also find them on dead players whose bodies have not yet been looted.
 <br/><br/>
@@ -103,7 +252,7 @@ Q. Whats with the teapots and big bags?<br/>
 A. This game has a food and water system that you must stay on top of if you hope to survive. You can collect food and water from water barrels, food stands, or dead players bodies. Food and water will randomly spawn around the map. Other items that will randomly spawn are fuel cans for refueling vehicles, medkits for healing yourself, and repair kits for repairing vehicles. Each of these is a one-time-only use item.
 <br/><br/>
 Q. I saw someone breaking a rule, what do I do?<br/>
-A. Simply go onto our teamspeak 27.50.70.191 and get the attention of one of the admins and let them know who the offender was and what they did and they will be dealt with swiftly.
+A. Simply go into global chat and get the attention of one of the admins and let them know who the offender was and what they did and they will be dealt with swiftly.
 <br/>
 "]
 ];

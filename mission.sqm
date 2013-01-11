@@ -36,8 +36,8 @@ class Mission
 	randomSeed=10079095;
 	class Intel
 	{
-		briefingName="Wasteland v2 - Edit by TwoodZ";
-		briefingDescription="Wasteland v2 - Edit by TwoodZ";
+		briefingName="404Wasteland - Chernarus [v2.7]";
+		briefingDescription="Wasteland is a harsh survival sandbox";
 		resistanceWest=0;
 		startWeather=0.25;
 		forecastWeather=0.25;
@@ -49,7 +49,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=132;
+		items=130;
 		class Item0
 		{
 			side="WEST";
@@ -2530,42 +2530,6 @@ class Mission
 				};
 			};
 		};
-		class Item130
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={8776.377,-136.70248,-2438.0293};
-					id=166;
-					side="LOGIC";
-					vehicle="Logic";
-					leader=1;
-					skill=0.60000002;
-					text="LHD1";
-				};
-			};
-		};
-		class Item131
-		{
-			side="LOGIC";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={22374.332,0.22041358,7421.7627};
-					id=167;
-					side="LOGIC";
-					vehicle="Logic";
-					leader=1;
-					skill=0.60000002;
-					text="LHD2";
-				};
-			};
-		};
 	};
 	class Vehicles
 	{
@@ -2952,7 +2916,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=866;
+		items=856;
 		class Item0
 		{
 			position[]={10472.047,6,2300.7461};
@@ -8088,91 +8052,6 @@ class Mission
 			position[]={10415.261,118.20923,9838.9834};
 			name="Town_46";
 			type="Empty";
-		};
-		class Item856
-		{
-			position[]={17205.875,0.19849472,11525.485};
-			name="ts";
-			text="Teamspeak = ts3.steaknbeer.com";
-			type="mil_start";
-			colorName="ColorRed";
-			angle=90;
-		};
-		class Item857
-		{
-			position[]={17175.113,-0.27932304,10602.572};
-			name="r";
-			text="Rules";
-			type="mil_arrow2";
-			colorName="ColorRed";
-			angle=180;
-		};
-		class Item858
-		{
-			position[]={17144.35,0.10084883,9848.8584};
-			name="1";
-			text="Hacking/Cheating/Exploiting = Permanent Ban";
-			type="mil_dot";
-			colorName="ColorRed";
-		};
-		class Item859
-		{
-			position[]={17144.35,-0.00356552,9433.5479};
-			name="1_1";
-			text="Keep Side chat to a minimum or you will be kicked";
-			type="mil_dot";
-			colorName="ColorRed";
-		};
-		class Item860
-		{
-			position[]={17128.965,0.54115099,9049};
-			name="1_2";
-			text="Keep custom sound files to a minimum or you will be kicked";
-			type="mil_dot";
-			colorName="ColorRed";
-		};
-		class Item861
-		{
-			position[]={17144.348,0.29535812,8710.5977};
-			name="1_3";
-			text="No teamkilling or stealing from teammates or you will be banned";
-			type="mil_dot";
-			colorName="ColorRed";
-		};
-		class Item862
-		{
-			position[]={17144.348,0.41274309,8295.2871};
-			name="1_4";
-			text="Medagaming/Playing Opfor but in Blufor ts channel = Ban";
-			type="mil_dot";
-			colorName="ColorRed";
-		};
-		class Item863
-		{
-			position[]={17190.494,-117.8259,7351.1309};
-			name="2";
-			text="Contact an Admin via Teamspeak!";
-			type="mil_triangle";
-			colorName="ColorRed";
-		};
-		class Item864
-		{
-			position[]={7837.52,291.1145,15773.469};
-			name="3";
-			text="Steak 'n Beer";
-			type="Empty";
-			colorName="ColorYellow";
-			a=45555;
-			b=45555;
-		};
-		class Item865
-		{
-			position[]={7755.0513,293.58237,15465.564};
-			name="5";
-			text="Steak 'n Beer";
-			type="Empty";
-			a=-50;
-			b=-50;
 		};
 	};
 };

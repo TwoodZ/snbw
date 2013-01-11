@@ -36,16 +36,6 @@ switch _key do
     {
         [] call loadPlayerMenu;
     };
-    
-    //Y key
-    case 21:
-    {
-_uid = getPlayerUID player;
-if ((_uid in moderators) OR (_uid in administrators) OR (_uid in serverAdministrators)) then {
-		
-					[] call fnc_Spectator;
-		};
-    };
 };
 
 _handled;

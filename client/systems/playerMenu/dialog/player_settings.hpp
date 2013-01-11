@@ -102,18 +102,18 @@ class playerSettings {
 			w = 0.125; h = 0.033 * safezoneH;	
 		};
 
-	//	class moneyInput: w_RscCombo {
-		//	idc = money_value;
-			//x = 0.625; y = 0.605;
-		//	w = .1; h = .030;
-		//};
+		class moneyInput: w_RscCombo {
+			idc = money_value;
+			x = 0.625; y = 0.605;
+			w = .1; h = .030;
+		};
 		
-		//class DropcButton : w_RscButton {
-			//text = "Drop Money";
-			//onButtonClick = "[] execVM 'client\systems\playerMenu\dropMoney.sqf'";
-			//x = 0.48; y = 0.60;
-			//w = 0.135; h = 0.033 * safezoneH;
-		//};
+		class DropcButton : w_RscButton {
+			text = "Drop Money";
+			onButtonClick = "[] execVM 'client\systems\playerMenu\dropMoney.sqf'";
+			x = 0.48; y = 0.60;
+			w = 0.135; h = 0.033 * safezoneH;
+		};
 		
 		class CloseButton : w_RscButton {
 			text = "Close";

@@ -113,5 +113,5 @@ switch(_switch) do
 sleep 5;
 _mins = floor(60 * (daytime - floor(daytime)));
 [
-	"Beerbot has spawned you in",_townName,format ["%1:%3%2", floor(daytime), _mins, if(_mins < 10) then {"0"} else {""}]
+	"404 Wasteland",_townName,format ["%1:%3%2", floor(daytime), _mins, if(_mins < 10) then {"0"} else {""}]
 ] spawn BIS_fnc_infoText;
